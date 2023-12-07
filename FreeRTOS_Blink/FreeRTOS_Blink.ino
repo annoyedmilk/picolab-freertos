@@ -1,5 +1,5 @@
 /*********************************************************************
- * Program: FreeRTOS-PicoLab
+ * Program: FreeRTOS_Blink
  * Author: annoyedmilk
  * Description: Demonstrating FreeRTOS with Raspberry Pi Pico using Arduino IDE.
  *              This example covers a basic LED blink using FreeRTOS.
@@ -23,7 +23,6 @@ void setup() {
     ,  NULL
     ,  2         // Priority
     ,  NULL );
-
   // The task scheduler takes over control of scheduling individual tasks.
 }
 
